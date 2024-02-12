@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.div{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border: 6px solid rebeccapurple;
+    margin: 4px;
+   text-align: center;
+}
+.main{
+    background-color: rgb(236, 187, 187); 
+    width: 30%;
+    height: 200px;
+    overflow: scroll;
+    border: 1px solid black;
+    margin: 10px;
+}
+.container > div{
+   img{
+    float: right;
+   }
+   width: 50%;
+}
+.menu{
+    background-color: azure;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    
+}
